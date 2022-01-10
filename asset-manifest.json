@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ivan-yu/static/css/main.073c9b0a.css",
+    "main.js": "/ivan-yu/static/js/main.0837b4b3.js",
+    "static/js/787.f9882e7f.chunk.js": "/ivan-yu/static/js/787.f9882e7f.chunk.js",
+    "static/media/logo.svg": "/ivan-yu/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ivan-yu/index.html",
+    "main.073c9b0a.css.map": "/ivan-yu/static/css/main.073c9b0a.css.map",
+    "main.0837b4b3.js.map": "/ivan-yu/static/js/main.0837b4b3.js.map",
+    "787.f9882e7f.chunk.js.map": "/ivan-yu/static/js/787.f9882e7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.0837b4b3.js"
+  ]
+}
