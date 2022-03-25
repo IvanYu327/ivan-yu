@@ -1,11 +1,12 @@
-import "./App.css";
-import Sidebar from "./components/Sidebar";
+import "./styles/App.css";
+import Navbar from "./Navbar/navbar";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Sidebar />
-    </div>
+    <Router>
+      <Navbar />
+    </Router>
   );
 }
 
