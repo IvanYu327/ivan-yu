@@ -7,7 +7,6 @@ const Home = () => {
 
   const toggle = () => {
     setIsOpen(!isOpen);
-    // console.log(isOpen);
   };
 
   return (

@@ -6,6 +6,7 @@ import {
   SidebarWrapper,
   SidebarMenu,
   SidebarLink,
+  SidebarItem,
 } from "./sidebarElements";
 
 const sidebarElements = ({ isOpen, toggle }) => {
@@ -14,19 +15,33 @@ const sidebarElements = ({ isOpen, toggle }) => {
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
-      <SidebarWrapper>
-        <SidebarMenu>
+      <SidebarMenu isOpen={isOpen}>
+        <SidebarItem>
           <SidebarLink to="about" onClick={toggle}>
-            About
+            about
           </SidebarLink>
+        </SidebarItem>
+        <SidebarItem>
           <SidebarLink to="about" onClick={toggle}>
-            About
+            experience
           </SidebarLink>
+        </SidebarItem>
+        <SidebarItem>
           <SidebarLink to="about" onClick={toggle}>
-            About
+            projects
           </SidebarLink>
-        </SidebarMenu>
-      </SidebarWrapper>
+        </SidebarItem>
+        <SidebarItem>
+          <SidebarLink to="about" onClick={toggle}>
+            blog
+          </SidebarLink>
+        </SidebarItem>
+        <SidebarItem>
+          <SidebarLink to="about" onClick={toggle}>
+            contact
+          </SidebarLink>
+        </SidebarItem>
+      </SidebarMenu>
     </SidebarContainer>
   );
 };

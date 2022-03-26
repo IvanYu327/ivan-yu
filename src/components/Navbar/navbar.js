@@ -2,7 +2,6 @@ import React from "react";
 import {
   Nav,
   NavbarContainer,
-  NavLogo,
   MobileIcon,
   NavMenu,
   NavItem,
@@ -15,19 +14,24 @@ function Navbar({ toggle }) {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">Ivan Yu</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLink to="about">About</NavLink>
+              <NavLink to="about">about</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="about">About</NavLink>
+              <NavLink to="about">experience</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="about">About</NavLink>
+              <NavLink to="about">projects</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="about">blog</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="about">contact</NavLink>
             </NavItem>
           </NavMenu>
         </NavbarContainer>
