@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
-export const Nav = styled.nav`
+export const Nav = styled.aside`
   background: #999;
   height: 100%;
   width: 200px;
@@ -10,14 +10,10 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 10;
-
-  // @media screen and (max-width: 960px) {
-  //   transition: 0.8s all ease;
-  // }
 
   @media screen and (max-width: 768px) {
     height: 80px;
