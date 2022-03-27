@@ -2,13 +2,15 @@ import styled from "styled-components";
 import { FaTimes } from "react-icons/fa";
 import { Link as LinkS } from "react-scroll";
 import { Link as LinkR } from "react-router-dom";
+import { MenuVars } from "../menuVars";
 
 export const SidebarContainer = styled.aside`
   position: fixed;
   z-index: 999;
-  width: 200px;
+  width: ${MenuVars.NavWidth}px;
+  // width: ${MenuVars.SidebarWidth};
   height: 100%;
-  background: #0d0d0d;
+  background: #FFF;
   display: grid;
   align-items: center;
   top: 0;
@@ -22,7 +24,7 @@ export const SidebarContainer = styled.aside`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-  color: #fff;
+  color: #000;
 `;
 
 export const Icon = styled.div`
@@ -36,19 +38,16 @@ export const Icon = styled.div`
 `;
 
 export const SidebarWrapper = styled.div`
-  color: #fff;
+  color: #000;
 `;
 
 export const SidebarMenu = styled.ul`
-  // display: grid;
-  // grid-template-columns: 1fr;
-  // grid-template-rows: repeat (6, 80px);
-
   position: fixed;
   top: 50px;
   left: 0;
-  width: 150px;
-  background-color: blue;
+  width: ${MenuVars.NavWidth - 50}px;
+  // width: ${MenuVars.NavWidth};
+  // background-color: blue;
   list-style: none;
   text-align: right;
   margin-right: -22px;
@@ -56,35 +55,22 @@ export const SidebarMenu = styled.ul`
   transition: 0.3s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
   left: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
-
-  // @media screen and (max-width: 480px) {
-  //   grid-template-rows: repeat (6, 60px);
-  // }
 `;
 
 export const SidebarItem = styled.li`
   height: 50px;
-  background-color: #000;
+  // background-color: #000;
   margin-top: 10px;
   float: right;
   clear: right;
 `;
 
 export const SidebarLink = styled(LinkS)`
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
-  // font-size: 1.5rem;
-  // text-decoration: none;
-  // list-style: none;
-  // transition: 0.2s ease-in-out;
-  // text-decoration: none;
-
-  color: #fff;
+  color: #000;
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-size: 30px;
+  font-size: ${MenuVars.FontSize}px;
   padding: 0 10px;
   height: 100%;
   cursor: pointer;
@@ -93,7 +79,4 @@ export const SidebarLink = styled(LinkS)`
     color: #01bf71;
     transition: 0.2s ease-in-out;
   }
-
-  // &.active {
-  //   border-bottom: 3px solid #01bf71;
 `;

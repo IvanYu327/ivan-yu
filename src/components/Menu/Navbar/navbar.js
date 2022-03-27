@@ -9,6 +9,8 @@ import {
 } from "./navbarElements.js";
 import { FaBars } from "react-icons/fa";
 
+const scrollOffset = -20;
+
 function Navbar({ toggle }) {
   return (
     <>
@@ -18,20 +20,33 @@ function Navbar({ toggle }) {
             <FaBars />
           </MobileIcon>
           <NavMenu>
+            {/* <NavItem>
+              <NavLink>ivan yu</NavLink>
+            </NavItem> */}
             <NavItem>
-              <NavLink to="about">about</NavLink>
+              <NavLink to="about" smooth={true} offset={scrollOffset}>
+                about
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="about">experience</NavLink>
+              <NavLink to="experience" smooth={true} offset={scrollOffset}>
+                experience
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="about">projects</NavLink>
+              <NavLink to="projects" smooth={true} offset={scrollOffset}>
+                projects
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="about">blog</NavLink>
+              <NavLink to="blog" smooth={true} offset={scrollOffset}>
+                blog
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="about">contact</NavLink>
+              <NavLink to="contact" smooth={true} offset={scrollOffset}>
+                contact
+              </NavLink>
             </NavItem>
           </NavMenu>
         </NavbarContainer>

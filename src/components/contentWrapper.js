@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { MenuVars } from "./Menu/menuVars";
 
 export const ContentPage = styled.div`
   display: flex;
@@ -7,12 +8,12 @@ export const ContentPage = styled.div`
 
 export const ContentWrapper = styled.div`
   flex-grow: 1;
-  padding-left: 200px;
+  padding-left: ${MenuVars.NavWidth}px;
   padding-top: 0px;
   background-color: red;
 
   @media screen and (max-width: 768px) {
     padding-left: 0px;
-    padding-top: 80px;
+    padding-top: ${MenuVars.TopbarHeight}px;
   }
 `;
