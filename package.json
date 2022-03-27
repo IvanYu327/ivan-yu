@@ -1,7 +1,5 @@
 {
   "name": "ivan-yu",
-  "homepage": "https://ivanyu327.github.io/ivan-yu",
-  "proxy": "http://localhost:3000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
