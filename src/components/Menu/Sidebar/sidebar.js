@@ -43,24 +43,15 @@ const Sidebar = ({ isOpen, toggle }) => {
       <SidebarMenu isOpen={isOpen}>
         <SidebarItem>
           <SidebarLink
-            to="about"
+            to="landing"
             onClick={toggle}
             smooth={true}
             offset={scrollOffset}
           >
-            about
+            IVAN YU
           </SidebarLink>
         </SidebarItem>
-        <SidebarItem>
-          <SidebarLink
-            to="experience"
-            onClick={toggle}
-            smooth={true}
-            offset={scrollOffset}
-          >
-            experience
-          </SidebarLink>
-        </SidebarItem>
+
         <SidebarItem>
           <SidebarLink
             to="projects"
@@ -79,6 +70,26 @@ const Sidebar = ({ isOpen, toggle }) => {
             offset={scrollOffset}
           >
             blog
+          </SidebarLink>
+        </SidebarItem>
+        <SidebarItem>
+          <SidebarLink
+            to="experience"
+            onClick={toggle}
+            smooth={true}
+            offset={scrollOffset}
+          >
+            experience
+          </SidebarLink>
+        </SidebarItem>
+        <SidebarItem>
+          <SidebarLink
+            to="about"
+            onClick={toggle}
+            smooth={true}
+            offset={scrollOffset}
+          >
+            about
           </SidebarLink>
         </SidebarItem>
         <SidebarItem>

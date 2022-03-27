@@ -1,8 +1,52 @@
 import React from "react";
-import { AboutWrapper } from "./aboutElements.js";
+import { AboutWrapper } from "./aboutElements";
 
 const About = () => {
-  return <AboutWrapper id="about">Ivan Yu (he/him)</AboutWrapper>;
+  return (
+    <AboutWrapper id="about">
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About About About About About
+      About About About About About About About About
+    </AboutWrapper>
+  );
 };
 
 export default About;

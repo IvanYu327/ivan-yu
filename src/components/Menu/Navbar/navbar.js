@@ -20,19 +20,12 @@ function Navbar({ toggle }) {
             <FaBars />
           </MobileIcon>
           <NavMenu>
-            {/* <NavItem>
-              <NavLink>ivan yu</NavLink>
-            </NavItem> */}
             <NavItem>
-              <NavLink to="about" smooth={true} offset={scrollOffset}>
-                about
+              <NavLink to="landing" smooth={true} offset={scrollOffset}>
+                IVAN YU
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink to="experience" smooth={true} offset={scrollOffset}>
-                experience
-              </NavLink>
-            </NavItem>
+
             <NavItem>
               <NavLink to="projects" smooth={true} offset={scrollOffset}>
                 projects
@@ -41,6 +34,16 @@ function Navbar({ toggle }) {
             <NavItem>
               <NavLink to="blog" smooth={true} offset={scrollOffset}>
                 blog
+              </NavLink>
+            </NavItem>
+            {/* <NavItem>
+              <NavLink to="experience" smooth={true} offset={scrollOffset}>
+                experience
+              </NavLink>
+            </NavItem> */}
+            <NavItem>
+              <NavLink to="about" smooth={true} offset={scrollOffset}>
+                about
               </NavLink>
             </NavItem>
             <NavItem>

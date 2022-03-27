@@ -8,12 +8,12 @@ export const ContentPage = styled.div`
 
 export const ContentWrapper = styled.div`
   flex-grow: 1;
-  padding-left: ${MenuVars.NavWidth}px;
+  padding-left: ${MenuVars.NavWidth / 2}px;
   padding-top: 0px;
-  background-color: red;
+  // background-color: red;
 
   @media screen and (max-width: 768px) {
     padding-left: 0px;
-    padding-top: ${MenuVars.TopbarHeight}px;
+    padding-top: ${MenuVars.TopbarHeight / 2}px;
   }
 `;

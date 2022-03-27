@@ -1,16 +1,22 @@
 import React from "react";
 
-import { ContentWrapper, ContentPage } from "../components/contentWrapper";
+import { ContentWrapper, ContentPage } from "../components/globalElements";
 
-import About from "../components/About/about";
+import Landing from "../components/Landing/landing";
 import Experience from "../components/Experience/experience";
+import Projects from "../components/Projects/projects";
+import BlogHome from "../components/Blog/HomePreview/blogHome";
+import About from "../components/About/about";
 
 const Home = () => {
   return (
     <ContentPage>
       <ContentWrapper>
+        <Landing />
+        <Projects />
+        {/* <Experience /> */}
+        <BlogHome />
         <About />
-        <Experience />
       </ContentWrapper>
     </ContentPage>
   );
