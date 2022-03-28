@@ -28,8 +28,6 @@ export const LandingContent = styled.div`
   padding-left: 50px;
 `;
 
-export const Title = styled.h1``;
-
 export const Name = styled.span`
   color: blue;
 `;

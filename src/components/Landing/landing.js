@@ -1,6 +1,5 @@
 import {
   LandingWrapper,
-  Title,
   Name,
   LandingContent,
   LandingP,
@@ -12,21 +11,27 @@ const Landing = () => {
   return (
     <LandingWrapper id="landing">
       <LandingContent>
-        <Title>
+        <h1>
           👋 Hey, I'm <Name>Ivan</Name>!
-        </Title>
+        </h1>
         <h3>
           Excited about software, biotech, robotics, with a focus on
-          accessibility and equity.
+          accessibility and equity
         </h3>
         <LandingP>Currently: </LandingP>
+        <LandingP>- Biomedical Engineering @UWaterloo</LandingP>
         <LandingP>
           - Developing cool brain tech{" "}
-          <a href="https://www.watolink.com/">@WatoLink</a>
+          <a href="https://www.watolink.com/" target="_blank">
+            @WatoLink
+          </a>
         </LandingP>
         <LandingP>
-          - Incoming <a href="https://www.cognixion.com/">@Cognixion</a> to
-          develop more cool brain tech
+          - Incoming{" "}
+          <a href="https://www.cognixion.com/" target="_blank">
+            @Cognixion
+          </a>{" "}
+          to develop more cool brain tech
         </LandingP>
         <LandingP>- Avid Tetris player and rock climber</LandingP>
 
@@ -36,7 +41,7 @@ const Landing = () => {
         <br></br>
         <br></br>
         <CheckOutMyWork to="projects" smooth={true} offset={-100}>
-          I like to build cool stuff, check out my work <Arrow>🠓</Arrow>
+          check out my work <Arrow>🠓</Arrow>
         </CheckOutMyWork>
       </LandingContent>
     </LandingWrapper>
