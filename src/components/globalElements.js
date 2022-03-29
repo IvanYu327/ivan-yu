@@ -12,6 +12,9 @@ export const ContentWrapper = styled.div`
   padding-top: 0px;
   // background-color: red;
 
+  max-width: 1500px;
+  margin: 0 auto;
+
   @media screen and (max-width: 768px) {
     padding-left: 0px;
     padding-top: ${MenuVars.TopbarHeight / 2}px;

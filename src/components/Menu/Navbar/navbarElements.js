@@ -1,10 +1,9 @@
 import styled from "styled-components";
-import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 import { MenuVars } from "../menuVars";
 
 export const Nav = styled.aside`
-  background: #fff;
+  // background: #fff;
   height: 100%;
   width: ${MenuVars.NavWidth}px;
   display: flex;

@@ -5,13 +5,13 @@ export const LandingWrapper = styled.div`
   position: relative;
   background: #fff;
   flex-grow: 1;
-  max-height: 700px;
   height: 100vh;
+  max-height: 700px;
   padding: 0px;
+  min-width: 300px;
 
   @media screen and (max-width: 768px) {
-    min-height: 90vh;
-    max-height: 500px;
+    min-height: 80vh;
   }
 `;
 

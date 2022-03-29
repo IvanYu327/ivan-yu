@@ -1,3 +1,4 @@
+import React from "react";
 import {
   LandingWrapper,
   Name,
@@ -12,7 +13,10 @@ const Landing = () => {
     <LandingWrapper id="landing">
       <LandingContent>
         <h1>
-          👋 Hey, I'm <Name>Ivan</Name>!
+          <span role="img" aria-label="wave">
+            👋
+          </span>{" "}
+          Hey, I'm <Name>Ivan</Name>!
         </h1>
         <h3>
           Excited about software, biotech, robotics, with a focus on
@@ -22,13 +26,21 @@ const Landing = () => {
         <LandingP>- Biomedical Engineering @UWaterloo</LandingP>
         <LandingP>
           - Developing cool brain tech{" "}
-          <a href="https://www.watolink.com/" target="_blank">
+          <a
+            href="https://www.watolink.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             @WatoLink
           </a>
         </LandingP>
         <LandingP>
           - Incoming{" "}
-          <a href="https://www.cognixion.com/" target="_blank">
+          <a
+            href="https://www.cognixion.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             @Cognixion
           </a>{" "}
           to develop more cool brain tech
