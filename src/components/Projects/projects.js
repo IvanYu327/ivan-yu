@@ -1,5 +1,6 @@
 import { Grid } from "@material-ui/core";
 import React from "react";
+import ProjectCard from "./ProjectCard/projectCard";
 import { ProjectsWrapper, Test, Test2 } from "./projectsElements";
 
 const projects = [1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -13,9 +14,9 @@ const Projects = () => {
         {projects.map((project) => {
           return (
             <Grid item key={project} xs={12} sm={6} md={4} xl={4}>
-              <Test2>
-                <Test></Test>
-              </Test2>
+              {/* <Test> */}
+              <ProjectCard />
+              {/* </Test> */}
             </Grid>
           );
         })}
