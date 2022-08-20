@@ -28,8 +28,16 @@ export const FooterContent = styled.div`
 
 export const FooterIcon = styled.div`
   color: black;
-  // background-color: purple;
   font-size: 30px;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  cursor: pointer;
+`;
+
+export const FooterLink = styled.a`
+  font-size: 30px;
+  background-color: red;
   width: 30px;
   height: 30px;
   margin: 0 auto;

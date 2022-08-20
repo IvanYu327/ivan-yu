@@ -3,7 +3,7 @@ import { Link as LinkS } from "react-scroll";
 
 export const LandingWrapper = styled.div`
   position: relative;
-  background: #fff;
+  // background: #fff;
   flex-grow: 1;
   height: 100vh;
   max-height: 700px;

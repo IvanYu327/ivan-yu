@@ -5,6 +5,7 @@ import {
   FooterWrapper,
   Status,
   FooterIcon,
+  FooterLink,
   Copyright,
 } from "./footerElements";
 import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
@@ -53,25 +54,31 @@ const Footer = () => {
           <FooterContent>
             <Grid container spacing={3} justifyContent="center">
               <Grid xs={4} sm={4} md={4} xl={4}>
-                <FooterIcon
+                <FooterLink
                   href="mailto: i7yu@uwaterloo.ca?subject=Hi Ivan!"
                   target="_blank"
                 >
-                  <FiMail style={{ margin: "0 auto" }} />
-                </FooterIcon>
+                  <FooterIcon>
+                    <FiMail />
+                  </FooterIcon>
+                </FooterLink>
               </Grid>
               <Grid xs={4} sm={4} md={4} xl={4}>
-                <FooterIcon href="https://github.com/IvanYu327" target="_blank">
-                  <FiGithub />
-                </FooterIcon>
+                <FooterLink href="https://github.com/IvanYu327" target="_blank">
+                  <FooterIcon>
+                    <FiGithub />
+                  </FooterIcon>
+                </FooterLink>
               </Grid>
               <Grid xs={4} sm={4} md={4} xl={4}>
-                <FooterIcon
+                <FooterLink
                   href="https://www.linkedin.com/in/ivanyu327/"
                   target="_blank"
                 >
-                  <FiLinkedin />
-                </FooterIcon>
+                  <FooterIcon>
+                    <FiLinkedin />
+                  </FooterIcon>
+                </FooterLink>
               </Grid>
             </Grid>
           </FooterContent>
