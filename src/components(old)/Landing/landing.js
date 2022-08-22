@@ -19,8 +19,8 @@ const Landing = () => {
           Hey, I'm <Name>Ivan</Name>!
         </h1>
         <h3>
-          Excited about software, biotech, robotics, with a focus on
-          accessibility and equity
+          I'm an (aspiring) engineer excited about software, biotech, robotics,
+          with a focus on accessibility and equity
         </h3>
         <LandingP>Currently: </LandingP>
         <LandingP>- Biomedical Engineering @UWaterloo</LandingP>

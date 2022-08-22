@@ -1,15 +1,60 @@
 import React, { useState, useEffect } from "react";
-import { ContentPage, ContentWrapper } from "../globalElements";
-import {
-  FooterContent,
-  FooterWrapper,
-  Status,
-  FooterIcon,
-  FooterLink,
-  Copyright,
-} from "./footerElements";
+import { Section, Container, Line } from "../globalComponents";
 import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 import { Grid } from "@material-ui/core";
+
+import styled from "styled-components";
+
+export const FooterWrapper = styled.div`
+  // background: red;
+  // position: relative;
+  // display: flex;
+  // justify-content: center;
+  height: 200px;
+  padding: 0px;
+`;
+
+export const Status = styled.p`
+  // position: absolute;
+  // top: 40px;
+  // background: yellow;
+
+  margin: 0 auto;
+  text-align: center;
+`;
+
+export const FooterContent = styled.div`
+  // background: green;
+
+  max-width: 700px;
+  margin: 10px auto;
+  padding 20px;
+`;
+
+export const FooterIcon = styled.div`
+  // background: green;
+  color: black;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  cursor: pointer;
+`;
+
+export const FooterLink = styled.a`
+  background: blue;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  cursor: pointer;
+`;
+
+export const Copyright = styled.p`
+  // background: blue;
+  margin: 0 auto;
+  text-align: center;
+`;
 
 const Footer = () => {
   const [dateState, setDateState] = useState(new Date());
@@ -39,8 +84,9 @@ const Footer = () => {
   };
 
   return (
-    <ContentPage>
-      <ContentWrapper>
+    <Section>
+      <Container>
+        <Line />
         <FooterWrapper id="contact">
           <Status>
             It is{" "}
@@ -84,8 +130,8 @@ const Footer = () => {
           </FooterContent>
           <Copyright>Ivan Yu © 2021</Copyright>
         </FooterWrapper>
-      </ContentWrapper>
-    </ContentPage>
+      </Container>
+    </Section>
   );
 };
 
