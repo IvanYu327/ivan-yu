@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Section, Container, Line } from "../globalComponents";
+import { Section, Container, Line } from "../components/globalComponents";
 import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 import { Grid } from "@material-ui/core";
 
