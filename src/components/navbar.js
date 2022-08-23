@@ -43,8 +43,11 @@ function Navbar() {
   return (
     <>
       <NavbarContainer>
-        <NavbarItem onClick={(event) => handleClick("")}>work</NavbarItem>
-        <NavbarItem onClick={(event) => handleClick("about")}>about</NavbarItem>
+        <NavbarLogo onClick={(event) => handleClick("")}>ivan.</NavbarLogo>
+        <NavbarItem onClick={(event) => handleClick("work")}>work.</NavbarItem>
+        <NavbarItem onClick={(event) => handleClick("about")}>
+          about.
+        </NavbarItem>
       </NavbarContainer>
     </>
   );

@@ -1,12 +1,18 @@
 import React from "react";
 import { Container, Section, Line } from "../globalComponents";
 import ExperienceCard from "./experienceCard";
+import { experienceData } from "./experienceData";
 
 const Experience = () => {
+  console.log(experienceData);
+  console.log("ASDfasdfa");
+
   return (
     <Section>
-      <Container color={"yellow"}>
-        <ExperienceCard></ExperienceCard>
+      <Container flex={true}>
+        {experienceData.map((experience) => (
+          <ExperienceCard experience={experience} />
+        ))}
       </Container>
       <Container>
         <Line />
