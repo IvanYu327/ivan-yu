@@ -1,6 +1,7 @@
 import CognixionLogo from "../../images/cognixion.png";
 import WatolinkLogo from "../../images/watolink.png";
 import WaterloopLogo from "../../images/waterloop.png";
+import WatonomousLogo from "../../images/watonomous.png";
 
 export const experienceData = [
   {
@@ -20,5 +21,11 @@ export const experienceData = [
     position: "Full Stack Developer",
     company: "Waterloop",
     date: "April 2022 - present",
+  },
+  {
+    logo: WatonomousLogo,
+    position: "Full Stack Developer",
+    company: "Watonomous",
+    date: "Sept 2022 - present",
   },
 ];

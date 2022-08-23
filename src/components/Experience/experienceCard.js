@@ -33,6 +33,10 @@ const CardContentContainer = styled.div`
   padding-left: 20px;
 `;
 
+const Date = styled.h3`
+  color: gray;
+`;
+
 const ExperienceCard = (experience) => {
   console.log(experience);
   console.log(experience.position);
@@ -42,7 +46,7 @@ const ExperienceCard = (experience) => {
       <CardContentContainer>
         <h2>{experience.experience.position}</h2>
         <h3>{experience.experience.company}</h3>
-        <h3>{experience.experience.date}</h3>
+        <Date>{experience.experience.date}</Date>
       </CardContentContainer>
     </CardContainer>
   );

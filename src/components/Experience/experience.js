@@ -4,9 +4,6 @@ import ExperienceCard from "./experienceCard";
 import { experienceData } from "./experienceData";
 
 const Experience = () => {
-  console.log(experienceData);
-  console.log("ASDfasdfa");
-
   return (
     <Section>
       <Container flex={true}>

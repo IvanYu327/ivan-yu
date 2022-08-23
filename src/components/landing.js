@@ -34,7 +34,7 @@ const Landing = () => {
           <LandingTitle> I'm an (aspiring) engineer.</LandingTitle>
           <h3>
             Biomedical Engineering at the University of Waterloo, excited about
-            software and biotech.
+            software, biotech, and UX.
           </h3>
         </SpacerDiv>
         <Line />
