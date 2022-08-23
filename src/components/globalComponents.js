@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Section = styled.div`
   background: ${(props) => props.color};
+  padding: 50px 30px 50px 30px;
 `;
 
 export const Container = styled.div`
@@ -9,19 +10,15 @@ export const Container = styled.div`
   max-width: 1040px;
   margin: auto;
 
-  padding: 20px 30px 20px 30px;
-
   display: ${(props) => (props.flex ? "flex" : "")};
-  flex-wrap: wrap;
-  // align-items: center;
-  // justify-content: center;
+  flex-wrap: ${(props) => (props.flex ? "wrap" : "")};
 `;
 
 export const Line = styled.div`
   margin-top: ${(props) => props.marginTop};
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid gray;
 `;
 
 Line.defaultProps = {
-  marginTop: "50px",
+  marginTop: "0px",
 };

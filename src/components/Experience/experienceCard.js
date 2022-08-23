@@ -17,14 +17,14 @@ const CompanyImageContainer = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-transition: 0.8s;
-  -moz-transition: 0.8s;
-  -o-transition: 0.8s;
-  -ms-transition: 0.8s;
-  transition: 0.8s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
 
   &:hover {
-    transform: scale(0.9);
+    transform: scale(0.95);
   }
 `;
 
@@ -35,11 +35,10 @@ const CardContentContainer = styled.div`
 
 const Date = styled.h3`
   color: gray;
+  font-weight: normal;
 `;
 
 const ExperienceCard = (experience) => {
-  console.log(experience);
-  console.log(experience.position);
   return (
     <CardContainer>
       <CompanyImageContainer img={experience.experience.logo} />

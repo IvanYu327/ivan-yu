@@ -11,7 +11,6 @@ const SpacerDiv = styled.div`
 const LandingTitle = styled.h1`
   max-width: 1000px;
 
-  // margin-left: 20px;
   font-size: 50px;
 
   @media (max-width: 500px) {
@@ -37,7 +36,7 @@ const Landing = () => {
             software, biotech, and UX.
           </h3>
         </SpacerDiv>
-        <Line />
+        {/* <Line /> */}
       </Container>
     </Section>
   );
