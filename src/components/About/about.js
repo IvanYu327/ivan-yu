@@ -13,11 +13,6 @@ const ImageContainer = styled.div`
   // border-radius: 10px;
 `;
 
-const AboutContainer = styled.div`
-  display: flex;
-  background: red;
-`;
-
 const AboutContentContainer = styled.div`
   width: 290px;
   padding-left: 20px;
