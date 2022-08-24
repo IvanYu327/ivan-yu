@@ -6,12 +6,17 @@ const NavbarContainer = styled.div`
   background: #faf9f6;
   min-height: 70px;
   height: 10vw;
-  overflow: overlay;
   padding-right: 10vw;
 
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
+
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
 `;
 
 const NavbarItemBase = styled.a`
@@ -23,6 +28,17 @@ const NavbarItemBase = styled.a`
 
   cursor: pointer;
   font-size: 25px;
+
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+
+  @media (max-width: 768px) {
+    margin-right: 20px;
+    font-size: 20px;
+  }
 `;
 
 const NavbarItem = styled(NavbarItemBase)`

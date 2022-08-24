@@ -5,14 +5,14 @@ import { experienceData } from "./experienceData";
 
 const Experience = () => {
   return (
-    <Section color="#D3D3D3">
+    <Section color="#e5e5e5">
       <Container>
         <h2>Where I've Worked.</h2>
         <Line marginTop={0} />
       </Container>
       <Container flex={true}>
         {experienceData.map((experience) => (
-          <ExperienceCard experience={experience} />
+          <ExperienceCard key={experience.id} experience={experience} />
         ))}
       </Container>
       {/* <Container>

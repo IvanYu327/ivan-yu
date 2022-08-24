@@ -84,7 +84,7 @@ const Footer = () => {
   };
 
   return (
-    <Section>
+    <Section color="#e5e5e5">
       <Container>
         <Line />
         <FooterWrapper id="contact">
