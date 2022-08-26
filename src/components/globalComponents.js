@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Section = styled.div`
   background: ${(props) => props.color};
   padding: 50px 30px 50px 30px;
-  min-width: 350px;
+  min-width: 300px;
 `;
 
 export const Container = styled.div`
