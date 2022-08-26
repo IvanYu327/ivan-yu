@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Container, Section, Line } from "./globalComponents";
+import { Container, Section } from "./globalComponents";
 
 const SpacerDiv = styled.div`
   height: 70vh;

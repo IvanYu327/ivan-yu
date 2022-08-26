@@ -21,7 +21,7 @@ export const experienceData = [
   {
     id: 3,
     logo: WaterloopLogo,
-    position: "Full Stack Developer",
+    position: "Full Stack and Firmware Developer",
     company: "Waterloop",
     date: "April 2022 - present",
   },

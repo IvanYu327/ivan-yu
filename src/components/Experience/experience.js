@@ -5,7 +5,7 @@ import { experienceData } from "./experienceData";
 
 const Experience = () => {
   return (
-    <Section color="#e5e5e5">
+    <Section>
       <Container>
         <h2>Where I've Worked.</h2>
         <Line marginTop={0} />
@@ -15,9 +15,6 @@ const Experience = () => {
           <ExperienceCard key={experience.id} experience={experience} />
         ))}
       </Container>
-      {/* <Container>
-        <Line marginTop={"50px"} />
-      </Container> */}
     </Section>
   );
 };

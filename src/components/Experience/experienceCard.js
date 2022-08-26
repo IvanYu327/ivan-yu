@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Heading2, Heading3, Line } from "../globalComponents";
+import { Heading2, Heading3 } from "../globalComponents";
 
 const CardContainer = styled.div`
   display: flex;
@@ -76,7 +76,6 @@ const ExperienceCard = (experience) => {
       <CompanyImageContainer img={experience.experience.logo} />
       <CardContentContainer>
         <Position>{experience.experience.position}</Position>
-        <Line />
         <Company>{experience.experience.company}</Company>
         <Date>{experience.experience.date}</Date>
       </CardContentContainer>

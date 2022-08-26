@@ -3,7 +3,7 @@ import { Container, Section, Line } from "../globalComponents";
 
 const Projects = () => {
   return (
-    <Section>
+    <Section color="#e5e5e5">
       <Container>
         <h2>I've made things. Check it out.</h2>
         <Line />
