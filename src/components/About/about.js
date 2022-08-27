@@ -26,8 +26,13 @@ const About = () => {
         <Heading1>Hello there!</Heading1>
         <AboutContentContainer>
           <Heading2>
-            I'm Ivan. I enjoy solving complex problems, and looking at how I can
+            I enjoy solving complex problems, and looking at how I can
             meaningful contributions through tech.
+            <br />
+            <br />
+            Currently, I am studying Biomedical Engineering at uWaterloo while
+            working on neurotech software applications and full stack
+            development.
             <br />
             <br />
             I previously worked at Cognixion, designing and developing
