@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Section, Line } from "../globalComponents";
-import { projectData } from "./projectData";
+import { projectData } from "../../content/projectData";
 import ProjectCard from "./projectCards";
 import { Grid } from "@mui/material";
 
@@ -10,8 +10,6 @@ const Projects = () => {
       <Container>
         <h2>I haven't cured cancer, but I made some cool stuff.</h2>
         <Line />
-        <h3>Not satisfied? Neither are my parents with me.</h3>
-
         <Container>
           <Grid container spacing={1} columns={{ xs: 4, sm: 8, md: 12 }}>
             {projectData.map((project) => (

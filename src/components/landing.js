@@ -1,42 +1,39 @@
 import React from "react";
 import styled from "styled-components";
-import { Container, Section } from "./globalComponents";
+import { Container, Heading1, Heading2, Section } from "./globalComponents";
+import SocialIcons from "./social";
 
-const SpacerDiv = styled.div`
+const LandingContainer = styled.div`
+  max-width: 800px;
+  min-width: 250px;
+  margin-top: 5vh;
+
   height: 70vh;
   max-height: 800px;
   padding-top: 50px;
-`;
-
-const LandingTitle = styled.h1`
-  max-width: 1000px;
-
-  font-size: 50px;
-
-  @media (max-width: 500px) {
-    font-size: 30px;
-  }
 `;
 
 const Landing = () => {
   return (
     <Section>
       <Container>
-        <SpacerDiv>
-          <LandingTitle>
+        <LandingContainer>
+          <Heading1>
             Hi!{" "}
             <span role="img" aria-label="wave">
               👋
             </span>{" "}
             I'm Ivan.
-          </LandingTitle>
-          <LandingTitle> I'm an (aspiring) engineer.</LandingTitle>
-          <h3>
-            Biomedical Engineering at the University of Waterloo, excited about
-            software, biotech, and UX.
-          </h3>
-        </SpacerDiv>
-        {/* <Line /> */}
+            <br />
+            I'm an (aspiring) engineer.
+          </Heading1>
+          <Heading2>
+            Biomedical Engineering at the University of Waterloo.
+            <br />
+            Excited about software, biotech, and UX.
+          </Heading2>
+          <SocialIcons />
+        </LandingContainer>
       </Container>
     </Section>
   );

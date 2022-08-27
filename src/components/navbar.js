@@ -26,7 +26,7 @@ const NavbarItemBase = styled.a`
   margin-right: 40px;
   margin-left: 10px;
 
-  cursor: pointer;
+  cursor: crosshair;
   font-size: 25px;
 
   -webkit-transition: 0.3s;
@@ -34,6 +34,10 @@ const NavbarItemBase = styled.a`
   -o-transition: 0.3s;
   -ms-transition: 0.3s;
   transition: 0.3s;
+
+  &:hover {
+    background-color: lightblue;
+  }
 
   @media (max-width: 768px) {
     margin-right: 20px;
@@ -50,7 +54,7 @@ const NavbarLogo = styled(NavbarItemBase)`
 `;
 
 function Navbar() {
-  let navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleClick = (page) => {
     navigate(`../${page}`);
@@ -59,11 +63,9 @@ function Navbar() {
   return (
     <>
       <NavbarContainer>
-        <NavbarLogo onClick={(event) => handleClick("")}>ivan.</NavbarLogo>
-        <NavbarItem onClick={(event) => handleClick("work")}>work.</NavbarItem>
-        <NavbarItem onClick={(event) => handleClick("about")}>
-          about.
-        </NavbarItem>
+        <NavbarLogo onClick={() => handleClick("")}>ivan.</NavbarLogo>
+        {/* <NavbarItem onClick={() => handleClick("work")}>work.</NavbarItem> */}
+        <NavbarItem onClick={() => handleClick("about")}>about.</NavbarItem>
       </NavbarContainer>
     </>
   );

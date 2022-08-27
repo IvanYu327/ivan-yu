@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Container, Section } from "../globalComponents";
+import { Container, Heading1, Section, Heading2 } from "../globalComponents";
 import IvanImage from "../../images/ivan.jpg";
 
 const ImageContainer = styled.div`
@@ -10,45 +10,32 @@ const ImageContainer = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  // border-radius: 10px;
 `;
 
 const AboutContentContainer = styled.div`
-  width: 290px;
-  padding-left: 20px;
-  background: green;
+  max-width: 600px;
+  min-width: 250px;
+  margin-top: 30px;
 `;
 
 const About = () => {
   return (
     <Section>
-      <Container color={"yellow"} flex={true}>
-        <ImageContainer />
+      <Container>
+        <Heading1>Hello there!</Heading1>
         <AboutContentContainer>
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf sdadfasfsdafsaf
-          sdadfasfsdafsaf sdadfasfsdafsaf{" "}
+          <Heading2>
+            I'm Ivan. I enjoy solving complex problems, and looking at how I can
+            meaningful contributions through tech.
+            <br />
+            <br />
+            I previously worked at Cognixion, designing and developing
+            interfaces to support communication for disabled peoples.
+            <br />
+            <br />I enjoy rock climbing and playing Tetris (4th fastest player
+            in Canada).
+          </Heading2>
         </AboutContentContainer>
-        other text
       </Container>
     </Section>
   );

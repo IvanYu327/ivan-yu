@@ -1,7 +1,7 @@
-import CognixionLogo from "../../images/cognixion.png";
-import WatolinkLogo from "../../images/watolink.png";
-import WaterloopLogo from "../../images/waterloop.png";
-import WatonomousLogo from "../../images/watonomous.png";
+import CognixionLogo from "../images/cognixion.png";
+import WatolinkLogo from "../images/watolink.png";
+import WaterloopLogo from "../images/waterloop.png";
+import WatonomousLogo from "../images/watonomous.png";
 
 export const experienceData = [
   {

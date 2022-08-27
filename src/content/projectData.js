@@ -1,4 +1,4 @@
-import CognixionLogo from "../../images/cognixion.png";
+import CognixionLogo from "../images/cognixion.png";
 
 export const projectData = [
   {

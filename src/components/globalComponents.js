@@ -48,3 +48,15 @@ export const Heading3 = styled.h3`
     font-size: 15px;
   }
 `;
+
+export const Heading1 = styled.h1`
+  font-size: 50px;
+  font-family: "Bespoke Bold";
+  margin-top: 10px;
+  margin-bottom: 0px;
+
+  @media (max-width: 500px) {
+    font-size: 30px;
+    margin-top: 5px;
+  }
+`;
