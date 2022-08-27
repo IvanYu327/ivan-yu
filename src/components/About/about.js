@@ -16,6 +16,7 @@ const AboutContentContainer = styled.div`
   max-width: 600px;
   min-width: 250px;
   margin-top: 30px;
+  margin-bottom: 100px;
 `;
 
 const About = () => {

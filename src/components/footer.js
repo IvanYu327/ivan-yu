@@ -1,59 +1,17 @@
 import React, { useState, useEffect } from "react";
-import { Section, Container, Line } from "../components/globalComponents";
-import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
-import { Grid } from "@material-ui/core";
+import { Section, Container } from "../components/globalComponents";
 
 import styled from "styled-components";
+import SocialIcons from "./social";
 
-export const FooterWrapper = styled.div`
-  // background: red;
-  // position: relative;
-  // display: flex;
-  // justify-content: center;
-  height: 200px;
-  padding: 0px;
-`;
-
-export const Status = styled.p`
-  // position: absolute;
-  // top: 40px;
-  // background: yellow;
-
-  margin: 0 auto;
+export const FooterText = styled.p`
+  margin: 10px auto;
   text-align: center;
 `;
 
 export const FooterContent = styled.div`
-  // background: green;
-
-  max-width: 700px;
-  margin: 10px auto;
-  padding 20px;
-`;
-
-export const FooterIcon = styled.div`
-  // background: green;
-  color: black;
-  font-size: 30px;
-  width: 30px;
-  height: 30px;
-  margin: 0 auto;
-  cursor: pointer;
-`;
-
-export const FooterLink = styled.a`
-  background: blue;
-  font-size: 30px;
-  width: 30px;
-  height: 30px;
-  margin: 0 auto;
-  cursor: pointer;
-`;
-
-export const Copyright = styled.p`
-  // background: blue;
-  margin: 0 auto;
-  text-align: center;
+  width: fit-content;
+  margin: auto;
 `;
 
 const Footer = () => {
@@ -86,50 +44,18 @@ const Footer = () => {
   return (
     <Section color="#e5e5e5">
       <Container>
-        <Line />
-        <FooterWrapper id="contact">
-          <Status>
-            It is{" "}
-            {dateState.toLocaleString("en-US", {
-              hour: "numeric",
-              hour12: true,
-            })}{" "}
-            in Waterloo, ON, I am probably {status()}
-          </Status>
-
-          <FooterContent>
-            <Grid container spacing={3} justifyContent="center">
-              <Grid xs={4} sm={4} md={4} xl={4}>
-                <FooterLink
-                  href="mailto: i7yu@uwaterloo.ca?subject=Hi Ivan!"
-                  target="_blank"
-                >
-                  <FooterIcon>
-                    <FiMail />
-                  </FooterIcon>
-                </FooterLink>
-              </Grid>
-              <Grid xs={4} sm={4} md={4} xl={4}>
-                <FooterLink href="https://github.com/IvanYu327" target="_blank">
-                  <FooterIcon>
-                    <FiGithub />
-                  </FooterIcon>
-                </FooterLink>
-              </Grid>
-              <Grid xs={4} sm={4} md={4} xl={4}>
-                <FooterLink
-                  href="https://www.linkedin.com/in/ivanyu327/"
-                  target="_blank"
-                >
-                  <FooterIcon>
-                    <FiLinkedin />
-                  </FooterIcon>
-                </FooterLink>
-              </Grid>
-            </Grid>
-          </FooterContent>
-          <Copyright>Ivan Yu © 2021</Copyright>
-        </FooterWrapper>
+        <FooterText>
+          It is{" "}
+          {dateState.toLocaleString("en-US", {
+            hour: "numeric",
+            hour12: true,
+          })}{" "}
+          in Waterloo, ON, I am probably {status()}
+        </FooterText>
+        <FooterContent>
+          <SocialIcons />
+        </FooterContent>
+        <FooterText>Ivan Yu © 2021</FooterText>
       </Container>
     </Section>
   );
