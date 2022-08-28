@@ -40,14 +40,14 @@ const SocialIcons = () => {
       <SocialButton href="https://github.com/IvanYu327" target="_blank">
         <GithubIcon />
       </SocialButton>
-      &emsp;&emsp;&emsp;
+      &emsp;
       <SocialButton
         href="https://www.linkedin.com/in/ivanyu327/"
         target="_blank"
       >
         <LinkedinIcon />
       </SocialButton>
-      &emsp;&emsp;&emsp;
+      &emsp;
       <SocialButton
         href="mailto: i7yu@uwaterloo.ca?subject=Hi Ivan!"
         target="_blank"

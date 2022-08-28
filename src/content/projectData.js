@@ -1,24 +1,29 @@
 import CognixionLogo from "../images/cognixion.png";
+import PageNotFound from "../pages/pageNotFound";
 
 export const projectData = [
   {
     img: CognixionLogo,
-    name: "penis music",
+    name: "Penis music",
     tags: ["Full Stack", "Machine Learning"],
+    page: PageNotFound,
   },
   {
     img: CognixionLogo,
-    name: "penis music",
+    name: "poopy music",
     tags: ["Full Stack", "Machine Learning"],
+    page: PageNotFound,
   },
   {
     img: CognixionLogo,
-    name: "penis music",
+    name: "balls",
     tags: ["Full Stack", "Machine Learning"],
+    page: PageNotFound,
   },
   {
     img: CognixionLogo,
-    name: "penis music",
+    name: "hahaha",
     tags: ["Full Stack", "Machine Learning"],
+    page: PageNotFound,
   },
 ];

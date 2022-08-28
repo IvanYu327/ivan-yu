@@ -74,7 +74,7 @@ const ProjectCard = (project) => {
     navigate(`../${page}`);
   };
 
-  const projectURL = project.project.name.replace(" ", "-");
+  const projectURL = project.project.name.replace(" ", "-").toLowerCase();
 
   return (
     <CardContainer>

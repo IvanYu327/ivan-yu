@@ -4,7 +4,7 @@ import { projectData } from "../../content/projectData";
 import ProjectCard from "./projectCards";
 import { Grid } from "@mui/material";
 
-const Projects = () => {
+const ProjectDisplay = () => {
   return (
     <Section color="#e5e5e5">
       <Container>
@@ -24,4 +24,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectDisplay;

@@ -10,6 +10,7 @@ import Home from "./pages/home";
 import About from "./pages/aboutPage";
 import Work from "./pages/work";
 import PageNotFound from "./pages/pageNotFound";
+import ProjectPage from "./pages/projectPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/work" element={<Work />} />
+          <Route path="/:projectName" element={<ProjectPage />} />
         </Routes>
         <Footer />
       </Router>

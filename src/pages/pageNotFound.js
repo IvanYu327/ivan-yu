@@ -5,6 +5,7 @@ import { Container } from "../components/globalComponents";
 
 const PageNotFoundMessage = styled.h3`
   margin-top: 30vh;
+  margin-bottom: 50vh;
   text-align: center;
 `;
 
