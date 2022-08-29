@@ -176,7 +176,7 @@ export const PROJECTS = [
     tags: ["Design", "AR"],
     tools: [{ icon: <FaFigma />, name: "Figma" }],
     description:
-      "During my internship with Cognixion, I modernized and redesigned AAC (Augmentative and Alternative Communication) interfaces. As much as I'd love to share the design process, my work is under NDA until the product is released.",
+      "During my internship with Cognixion, I modernized and redesigned AAC (Augmentative and Alternative Communication) and AR interfaces. As much as I'd love to share the design process, my work is under NDA until the product is released.",
   },
   {
     img: CognixionLogo,
