@@ -188,7 +188,6 @@ export const projectData = [
   //   tools: [
   //     { icon: <FaReact />, name: "React" },
   //     { icon: <SiVercel />, name: "NEXT.js" },
-  //     // { icon: <DiCss3 />, name: "CSS" },
   //     { icon: <FaUtensilSpoon />, name: "Spoonacular API" },
   //     { icon: <SiChakraui />, name: "Chakra UI" },
   //   ],
