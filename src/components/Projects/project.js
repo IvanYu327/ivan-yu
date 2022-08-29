@@ -25,9 +25,9 @@ const Project = ({ project }) => {
   window.scrollTo(0, 0);
   return (
     <>
-      <ImageContainer img={project.img} />
       <Section>
         <Container>
+          <ImageContainer img={project.img} />
           <Heading1>{project.name}</Heading1>
 
           {"tools" in project ? (

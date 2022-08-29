@@ -252,6 +252,6 @@ export const projectData = [
         name: "Demo (you're on it)",
       },
     ],
-    description: "this is a project",
+    description: "It's my personal website.",
   },
 ];
