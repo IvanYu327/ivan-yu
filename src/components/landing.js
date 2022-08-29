@@ -11,6 +11,7 @@ const LandingContainer = styled.div`
   height: 70vh;
   max-height: 800px;
   padding-top: 50px;
+  padding-right: 10px;
 `;
 
 const Landing = () => {
@@ -25,12 +26,12 @@ const Landing = () => {
             </span>{" "}
             I'm Ivan.
             <br />
-            I'm an (aspiring) engineer.
+            I'm an engineer.
           </Heading1>
           <Heading2>
             Biomedical Engineering at the University of Waterloo.
             <br />
-            Excited about software, biotech, and UX.
+            Excited about software engineering, biotech, and UX.
           </Heading2>
           <SocialIcons />
         </LandingContainer>

@@ -58,14 +58,12 @@ const Tags = styled.h3`
   color: gray;
 `;
 
-const ProjectCard = (project) => {
-  console.log(project);
-
+const ProjectCard = ({ project }) => {
   let tags = "";
 
-  project.project.tags.forEach((tag, i) => {
+  project.tags.forEach((tag, i) => {
     tags = tags.concat(tag);
-    if (i !== project.project.tags.length - 1) tags = tags.concat(", ");
+    if (i !== project.tags.length - 1) tags = tags.concat(", ");
   });
 
   const navigate = useNavigate();
@@ -74,17 +72,17 @@ const ProjectCard = (project) => {
     navigate(`../${page}`);
   };
 
-  const projectURL = project.project.name.replace(" ", "-").toLowerCase();
+  const projectURL = project.name.replaceAll(" ", "-").toLowerCase();
 
   return (
     <CardContainer>
       <ProjectImageContainer
-        img={project.project.img}
+        img={project.img}
         onClick={() => handleClick(projectURL)}
       />
       <CardContentContainer>
         <ProjectName onClick={() => handleClick(projectURL)}>
-          <span>{project.project.name}</span>
+          <span>{project.name}</span>
         </ProjectName>
         <Tags>{tags}</Tags>
       </CardContentContainer>

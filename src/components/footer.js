@@ -55,7 +55,13 @@ const Footer = () => {
         <FooterContent>
           <SocialIcons />
         </FooterContent>
-        <FooterText>Ivan Yu © 2021</FooterText>
+        <FooterText>
+          Made with{" "}
+          <span role="img" aria-label="heart">
+            💙
+          </span>{" "}
+          Ivan Yu © 2021
+        </FooterText>
       </Container>
     </Section>
   );

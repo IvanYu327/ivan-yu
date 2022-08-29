@@ -55,7 +55,13 @@ export const Heading1 = styled.h1`
   margin-top: 10px;
   margin-bottom: 0px;
 
-  @media (max-width: 500px) {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+
+  @media (max-width: 768px) {
     font-size: 30px;
     margin-top: 5px;
   }
