@@ -45,6 +45,7 @@ const Project = ({ project }) => {
               />
               {project.tools.map((tool) => (
                 <Chip
+                  key={project.tools.indexOf(tool)}
                   style={{
                     fontSize: "15px",
                     border: "none",
@@ -64,6 +65,7 @@ const Project = ({ project }) => {
             <ToolsContainer>
               {project.links.map((link) => (
                 <Chip
+                  key={project.links.indexOf(link)}
                   style={{
                     fontSize: "15px",
                     border: "none",

@@ -4,7 +4,6 @@ import {
   FaGithub,
   FaReact,
   FaDiscord,
-  FaUtensilSpoon,
   FaYoutube,
   FaFigma,
 } from "react-icons/fa";
@@ -18,13 +17,11 @@ import {
   SiGraphql,
   SiGooglemaps,
   SiPython,
-  SiVercel,
-  SiChakraui,
   SiDevpost,
 } from "react-icons/si";
 import { FiLink } from "react-icons/fi";
 
-export const projectData = [
+export const PROJECTS = [
   {
     img: CognixionLogo,
     name: "TimeLine",
@@ -95,7 +92,7 @@ export const projectData = [
     tags: ["Front End"],
     tools: [
       { icon: <FaReact />, name: "React" },
-      // { icon: <DiCss3 />, name: "CSS" },
+      { icon: <DiCss3 />, name: "CSS" },
       { icon: <SiGraphql />, name: "GraphQL" },
     ],
     links: [
@@ -148,7 +145,7 @@ export const projectData = [
     tags: ["Full Stack", "E-Sports"],
     tools: [
       { icon: <DiHtml5 />, name: "HTML" },
-      { icon: <DiCss3 />, name: "CSS" },
+      // { icon: <DiCss3 />, name: "CSS" },
       { icon: <SiJavascript />, name: "Javascript" },
       { icon: <SiFlask />, name: "Flask" },
       { icon: <SiPython />, name: "Python" },
@@ -181,35 +178,6 @@ export const projectData = [
     description:
       "During my internship with Cognixion, I modernized and redesigned AAC (Augmentative and Alternative Communication) interfaces. As much as I'd love to share the design process, my work is under NDA until the product is released.",
   },
-  // {
-  //   img: CognixionLogo,
-  //   name: "Nom",
-  //   tags: ["Web App"],
-  //   tools: [
-  //     { icon: <FaReact />, name: "React" },
-  //     { icon: <SiVercel />, name: "NEXT.js" },
-  //     { icon: <FaUtensilSpoon />, name: "Spoonacular API" },
-  //     { icon: <SiChakraui />, name: "Chakra UI" },
-  //   ],
-  //   links: [
-  //     {
-  //       icon: <FaGithub />,
-  //       name: "Github",
-  //       link: "https://github.com/freeman-jiang/hack-the-north-2021",
-  //     },
-  //     {
-  //       icon: <SiDevpost />,
-  //       name: "Devpost",
-  //       link: "https://devpost.com/software/nom-fjteva",
-  //     },
-  //     {
-  //       icon: <FiLink />,
-  //       name: "Demo",
-  //       link: "https://hack-the-north-2021-nloomb25k-freeman-jiang.vercel.app/",
-  //     },
-  //   ],
-  //   description: "this is a project",
-  // },
   {
     img: CognixionLogo,
     name: "Build a Bot-y",

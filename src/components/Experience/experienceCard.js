@@ -13,7 +13,6 @@ const Position = styled(Heading3)`
 
 const Company = styled.a`
   color: black;
-
   text-decoration-color: #ea215a;
   text-decoration-thickness: 0.125em;
   text-underline-offset: 1.5px;

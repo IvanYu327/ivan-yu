@@ -16,7 +16,7 @@ const ProjectImageContainer = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  cursor: crosshair;
+  cursor: pointer;
 
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -44,7 +44,7 @@ const ProjectName = styled.h2`
   transition: 0.3s;
 
   & > ${"span"} {
-    cursor: crosshair;
+    cursor: pointer;
 
     &:hover {
       background-color: lightblue;

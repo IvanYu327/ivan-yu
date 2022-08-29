@@ -25,6 +25,6 @@ export const PAST_EXPERIENCE = [
     company: "Cognixion",
     link: "https://www.cognixion.com/",
     description:
-      "Designed and developed neurotech applications to unlock speech for disabled peoples.",
+      "Designed and developed neurotech applications to unlock speech for disabled peoples",
   },
 ];

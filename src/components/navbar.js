@@ -26,7 +26,7 @@ const NavbarItemBase = styled.a`
   margin-right: 40px;
   margin-left: 10px;
 
-  cursor: crosshair;
+  cursor: pointer;
   font-size: 25px;
 
   -webkit-transition: 0.3s;

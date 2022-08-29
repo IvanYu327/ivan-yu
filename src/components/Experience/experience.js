@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Container, Section, Line, Heading3 } from "../globalComponents";
+import { Container, Section, Line, Heading2 } from "../globalComponents";
 import ExperienceCard from "./experienceCard";
 import {
   CURRENT_EXPERIENCE,
@@ -22,20 +22,26 @@ const Experience = () => {
         <Grid container spacing={1} columns={{ xs: 4, sm: 8, md: 12 }}>
           <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
             <WorkContainer>
-              <h2>Where I'm Working.</h2>
+              <Heading2>Where I'm Working.</Heading2>
               <Line marginTop={0} />
               {CURRENT_EXPERIENCE.map((experience) => (
-                <ExperienceCard key={experience.id} experience={experience} />
+                <ExperienceCard
+                  key={CURRENT_EXPERIENCE.indexOf(experience)}
+                  experience={experience}
+                />
               ))}
             </WorkContainer>
           </Grid>
 
           <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
             <WorkContainer>
-              <h2>Where I've Worked.</h2>
+              <Heading2>Where I've Worked.</Heading2>
               <Line marginTop={0} />
               {PAST_EXPERIENCE.map((experience) => (
-                <ExperienceCard key={experience.id} experience={experience} />
+                <ExperienceCard
+                  key={PAST_EXPERIENCE.indexOf(experience)}
+                  experience={experience}
+                />
               ))}
             </WorkContainer>
           </Grid>
