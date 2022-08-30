@@ -46,8 +46,19 @@ const ProjectName = styled.h2`
   & > ${"span"} {
     cursor: pointer;
 
-    &:hover {
-      background-color: lightblue;
+    text-decoration: none;
+    background-image: linear-gradient(#d99a5a, #d99a5a);
+    background-size: 0% 0.1em;
+    background-position-y: 90%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-size: 100% 0.1em;
+      background-position-x: 0%;
     }
   }
 `;

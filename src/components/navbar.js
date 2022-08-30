@@ -29,14 +29,19 @@ const NavbarItemBase = styled.a`
   cursor: pointer;
   font-size: 25px;
 
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -ms-transition: 0.3s;
-  transition: 0.3s;
+  text-decoration: none;
+  background-image: linear-gradient(#d99a5a, #d99a5a);
+  background-size: 0% 0.1em;
+  background-position-y: 90%;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease-in-out;
 
-  &:hover {
-    background-color: lightblue;
+  &:hover,
+  &:focus,
+  &:active {
+    background-size: 100% 0.1em;
+    background-position-x: 0%;
   }
 
   @media (max-width: 768px) {
@@ -63,7 +68,7 @@ function Navbar() {
   return (
     <>
       <NavbarContainer>
-        <NavbarLogo onClick={() => handleClick("")}>ivan.</NavbarLogo>
+        <NavbarItemBase onClick={() => handleClick("")}>ivan.</NavbarItemBase>
         {/* <NavbarItem onClick={() => handleClick("work")}>work.</NavbarItem> */}
         <NavbarItem onClick={() => handleClick("about")}>about.</NavbarItem>
       </NavbarContainer>

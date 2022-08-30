@@ -43,7 +43,7 @@ const Footer = () => {
 
   return (
     <Section color="#e5e5e5">
-      <Container>
+      <Container still={true}>
         <FooterText>
           It is{" "}
           {dateState.toLocaleString("en-US", {
@@ -59,7 +59,8 @@ const Footer = () => {
           Made with{" "}
           <span role="img" aria-label="heart">
             💙
-          </span>{" "}
+          </span>
+          {" - "}
           Ivan Yu © 2021
         </FooterText>
       </Container>

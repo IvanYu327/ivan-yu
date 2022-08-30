@@ -9,9 +9,9 @@ import {
 import Grid from "@mui/material/Grid";
 
 const WorkContainer = styled.div`
-  max-width: 400px;
+  max-width: 450px;
   min-width: 250px;
-  width: 400px;
+  width: 450px;
   margin-right: 20px;
 `;
 

@@ -18,6 +18,7 @@ import {
   SiGooglemaps,
   SiPython,
   SiDevpost,
+  SiNumpy,
 } from "react-icons/si";
 import { FiLink } from "react-icons/fi";
 
@@ -25,6 +26,7 @@ export const PROJECTS = [
   {
     img: CognixionLogo,
     name: "TimeLine",
+    favourite: true,
     tags: ["Full Stack"],
     tools: [
       { icon: <DiHtml5 />, name: "HTML" },
@@ -52,11 +54,14 @@ export const PROJECTS = [
         link: "https://www.youtube.com/watch?v=RT1EIRt_i2U",
       },
     ],
-    description: "this is a project",
+    description:
+      "TimeLine is a web app that shows establishments in the area and how busy they are using user input and the Google Places and Geocoding API to help civilians avoid crowds, which may also pose a COVID 19 health risk.",
+    award: "🏆 Runner Up at ExploreHacks 2021.",
   },
   {
     img: CognixionLogo,
     name: "Tabis",
+    favourite: true,
     tags: ["Full Stack", "Neurotech"],
     tools: [
       { icon: <FaReact />, name: "React" },
@@ -64,6 +69,7 @@ export const PROJECTS = [
       // { icon: <DiCss3 />, name: "CSS" },
       { icon: <SiFlask />, name: "Flask" },
       { icon: <SiPython />, name: "Python" },
+      { icon: <SiNumpy />, name: "NumPy" },
       { icon: <SiMongodb />, name: "MongoDB" },
     ],
     links: [
@@ -84,11 +90,14 @@ export const PROJECTS = [
         link: "https://www.youtube.com/watch?v=KAOVlZgsdtM",
       },
     ],
-    description: "this is a project",
+    description:
+      "Developed a web app Tabis that saves user specific EEG (electroencephalogram) brain data from the Muse 2 headband and analyzes it to determine the user's sleep stages and cycles. Users can upload their data to their profile and see minutely analysis of their sleep patterns to identify optimal waking times. I worked with NumPy and MongoDB in the backend to store user data and analyze EEG data into brain wave frequencies.",
+    award: "🏆 First Place at NATHacks 2021",
   },
   {
     img: CognixionLogo,
     name: "HTN Challenge",
+    favourite: true,
     tags: ["Front End"],
     tools: [
       { icon: <FaReact />, name: "React" },
@@ -108,11 +117,13 @@ export const PROJECTS = [
         link: "https://htn-frontend-challenge-ivanyu.herokuapp.com/",
       },
     ],
-    description: "this is a project",
+    description:
+      "This project was built for Hack the North's Front End Challenge. I created an events page to retrieve events from their API using GraphQL. Unfortunately the API has been closed so the demo no longer displays events.",
   },
   {
     img: CognixionLogo,
     name: "Study Goose",
+    favourite: true,
     tags: ["Discord", "Machine Learning"],
     tools: [
       { icon: <FaDiscord />, name: "Discord.py API" },
@@ -137,11 +148,14 @@ export const PROJECTS = [
         link: "https://www.youtube.com/watch?v=bwxRaF9M6Uk",
       },
     ],
-    description: "this is a project",
+    description:
+      "Study Goose is a student helper Discord bot. I developed an AI chatbot using Python and trained a ML model using TensorFlow to respond to common Discord inquiries addressed to the bot, reducing the learning curve for new users to use Discord. I also developed features to convert images to text, play music, answer educational questions, and implemented MongoDB to store to-do lists and user preferences, servicing 400+ users.",
+    award: "🏆 Best Hack at HyperHacks 2021.",
   },
   {
     img: CognixionLogo,
     name: "Free SpACE",
+    favourite: true,
     tags: ["Full Stack", "E-Sports"],
     tools: [
       { icon: <DiHtml5 />, name: "HTML" },
@@ -168,11 +182,14 @@ export const PROJECTS = [
         link: "https://www.youtube.com/watch?v=bTbT5mIBFyY",
       },
     ],
-    description: "this is a project",
+    description:
+      "Analyzed current esports community and developed a web app to play in Bingo in real time with esports events. Developed back-end with Flask and Python to store login and data in MongoDB and update bingo boards across all users while processing HTTP requests to display appropriate information and quickly change displays.",
+    award: "🏆 Best Beginner Hack at Liquid Hacks 2.0 2021",
   },
   {
     img: CognixionLogo,
     name: "AAC AR Keyboard",
+    favourite: true,
     tags: ["Design", "AR"],
     tools: [{ icon: <FaFigma />, name: "Figma" }],
     description:
@@ -181,6 +198,7 @@ export const PROJECTS = [
   {
     img: CognixionLogo,
     name: "Build a Bot-y",
+    favourite: false,
     tags: ["Discord", "Python"],
     tools: [
       { icon: <FaDiscord />, name: "Discord.py API" },
@@ -198,11 +216,13 @@ export const PROJECTS = [
         link: "https://www.youtube.com/watch?v=lYSbyvhQNSw&feature=share",
       },
     ],
-    description: "this is a project",
+    description:
+      "Build a Bot-y was my first hackthon project and is a workout planning Discord bot that tracks user profiles, personalized reminders, and comparisons to your friends to remind people to stay fit through a familiar social platform. I also developed a marketing website using HTML/CSS/JS for the bot as well. 🏆 First Place - EngHacks Quests 2021",
   },
   {
     img: CognixionLogo,
     name: "Personal Website",
+    favourite: false,
     tags: ["Front End"],
     tools: [
       { icon: <FaReact />, name: "React" },

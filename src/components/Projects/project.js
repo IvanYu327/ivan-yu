@@ -61,6 +61,7 @@ const Project = ({ project }) => {
             ""
           )}
           <Heading3>{project.description}</Heading3>
+          <Heading3>{"award" in project ? project.award : ""}</Heading3>
           {"links" in project ? (
             <ToolsContainer>
               {project.links.map((link) => (

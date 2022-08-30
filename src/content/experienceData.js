@@ -21,7 +21,7 @@ export const CURRENT_EXPERIENCE = [
 
 export const PAST_EXPERIENCE = [
   {
-    position: "UX Software Developer Intern",
+    position: "Software Developer Intern",
     company: "Cognixion",
     link: "https://www.cognixion.com/",
     description:

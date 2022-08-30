@@ -1,4 +1,15 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const OnLoadAnimation = keyframes`
+  0% {
+    transform: translateX(-40px);
+    opacity:0%;
+  }
+  100% {
+    transform: translateX(0);
+    opacity:100%;
+  }
+`;
 
 export const Section = styled.div`
   background: ${(props) => props.color};
@@ -14,6 +25,9 @@ export const Container = styled.div`
 
   display: ${(props) => (props.flex ? "flex" : "")};
   flex-wrap: ${(props) => (props.flex ? "wrap" : "")};
+
+  animation-name: ${(props) => (props.still ? "" : OnLoadAnimation)};
+  animation-duration: ${(props) => (props.still ? "" : "1s")};
 `;
 
 export const Line = styled.div`
