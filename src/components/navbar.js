@@ -20,7 +20,7 @@ const NavbarContainer = styled.div`
   transition: 0.3s;
 `;
 
-const NavbarItemBase = styled.a`
+const NavbarItem = styled.a`
   display: inline-block;
   align-self: flex-end;
 
@@ -51,14 +51,6 @@ const NavbarItemBase = styled.a`
   }
 `;
 
-const NavbarItem = styled(NavbarItemBase)`
-  // align-self: flex-start;
-`;
-
-const NavbarLogo = styled(NavbarItemBase)`
-  // align-self: flex-start;
-`;
-
 function Navbar() {
   const navigate = useNavigate();
 
@@ -69,7 +61,7 @@ function Navbar() {
   return (
     <>
       <NavbarContainer>
-        <NavbarItemBase onClick={() => handleClick("")}>ivan.</NavbarItemBase>
+        <NavbarItem onClick={() => handleClick("")}>ivan.</NavbarItem>
         {/* <NavbarItem onClick={() => handleClick("work")}>work.</NavbarItem> */}
         <NavbarItem onClick={() => handleClick("about")}>about.</NavbarItem>
       </NavbarContainer>

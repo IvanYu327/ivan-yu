@@ -1,42 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { Container, Heading1, Section, Heading2 } from "../globalComponents";
-import IvanImage from "../../images/ivan.jpg";
-import IvanHeadImage from "../../images/ivan-head.jpg";
-
-const MobileImageContainer = styled.div`
-  background-image: url(${IvanHeadImage});
-
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  height: 100px;
-  width: 100px;
-  margin-left: 30px;
-
-  @media (min-width: 1000px) {
-    display: none;
-  }
-`;
-
-const ImageContainer = styled.div`
-  background-image: url(${IvanImage});
-
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  height: 350px;
-  width: 350px;
-  margin-top: 50px;
-  margin: auto 0;
-  margin-left: 30px;
-
-  @media (max-width: 1000px) {
-    display: none;
-  }
-`;
 
 const AboutContentContainer = styled.div`
   max-width: 550px;

@@ -1,5 +1,5 @@
 import React from "react";
-import CognixionLogo from "../images/cognixion.png";
+import CognixionLogo from "../images/companies/cognixion.png";
 import {
   FaGithub,
   FaReact,
