@@ -6,7 +6,7 @@ import SocialIcons from "./social";
 const LandingContainer = styled.div`
   max-width: 800px;
   min-width: 250px;
-  margin-top: 5vh;
+  margin-top: 10vh;
 
   height: 70vh;
   max-height: 800px;

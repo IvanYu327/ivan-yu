@@ -6,7 +6,9 @@ const AboutContentContainer = styled.div`
   max-width: 550px;
   min-width: 250px;
   min-height: 80vh;
-  margin-top: 30px;
+  max-height: 800px;
+
+  margin-top: 5vh;
   margin-bottom: 30px;
 `;
 
@@ -29,21 +31,21 @@ const About = () => {
             <Aboutheading>Hello there!</Aboutheading>
           </AboutHeadingContainer>
           <Heading2>
-            I enjoy solving complex problems, and looking at how I can
+            I'm Ivan! I enjoy solving complex problems, and looking at how I can
             meaningful contributions through tech.
             <br />
             <br />
             Currently, I am studying Biomedical Engineering at uWaterloo while
             working on neurotech software applications and full stack
-            development.
+            engineering.
             <br />
             <br />
             I previously worked at Cognixion, designing and developing
             interfaces to support communication for disabled peoples.
             <br />
             <br />
-            In my spare time, I enjoy rock climbing and playing Tetris (4th
-            fastest in Canada / 91rst globally).
+            In my spare time, I enjoy rock climbing, LEGOs, and playing Tetris
+            (4th fastest in Canada / 91rst globally).
           </Heading2>
         </AboutContentContainer>
       </Container>
