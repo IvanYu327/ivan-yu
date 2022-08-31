@@ -13,7 +13,7 @@ const OnLoadAnimation = keyframes`
 
 export const Section = styled.div`
   background: ${(props) => props.color};
-  padding: 50px 30px 50px 30px;
+  padding: 30px;
   min-width: 300px;
 `;
 

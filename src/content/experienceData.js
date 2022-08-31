@@ -9,13 +9,14 @@ export const CURRENT_EXPERIENCE = [
     position: "Full Stack and Firmware Developer",
     company: "Waterloop",
     link: "https://teamwaterloop.ca/",
-    description: "Developing recruitment system and hyperloop interface",
+    description:
+      "Developing recruitment system (PERN) and hyperloop interface (web and firmware)",
   },
   {
     position: "Full Stack Developer",
     company: "Watonomous",
     link: "https://www.watonomous.ca/",
-    description: "Developing finance management system",
+    description: "Developing finance management system (MERN)",
   },
 ];
 

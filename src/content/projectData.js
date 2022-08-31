@@ -22,9 +22,15 @@ import {
 } from "react-icons/si";
 import { FiLink } from "react-icons/fi";
 
+import TimeLine from "../images/projects/TimeLine2.png";
+import Tabis from "../images/projects/Tabis.png";
+import StudyGoose from "../images/projects/StudyGoose.png";
+import FreeSpACE from "../images/projects/FreeSpACE.png";
+import CXNone from "../images/projects/CXNone.png";
+
 export const PROJECTS = [
   {
-    img: CognixionLogo,
+    img: TimeLine,
     name: "TimeLine",
     favourite: true,
     tags: ["Full Stack"],
@@ -55,11 +61,11 @@ export const PROJECTS = [
       },
     ],
     description:
-      "TimeLine is a web app that shows establishments in the area and how busy they are using user input and the Google Places and Geocoding API to help civilians avoid crowds, which may also pose a COVID 19 health risk.",
+      "TimeLine is a web app that shows establishments in the area and how busy they are using user input and the Google Places and Geocoding API. TimeLine helps civilians avoid crowds and busy lines, which may also pose a COVID 19 health risk.",
     award: "🏆 Runner Up at ExploreHacks 2021.",
   },
   {
-    img: CognixionLogo,
+    img: Tabis,
     name: "Tabis",
     favourite: true,
     tags: ["Full Stack", "Neurotech"],
@@ -97,7 +103,7 @@ export const PROJECTS = [
   {
     img: CognixionLogo,
     name: "HTN Challenge",
-    favourite: true,
+    favourite: false,
     tags: ["Front End"],
     tools: [
       { icon: <FaReact />, name: "React" },
@@ -121,7 +127,7 @@ export const PROJECTS = [
       "This project was built for Hack the North's Front End Challenge. I created an events page to retrieve events from their API using GraphQL. Unfortunately the API has been closed so the demo no longer displays events.",
   },
   {
-    img: CognixionLogo,
+    img: StudyGoose,
     name: "Study Goose",
     favourite: true,
     tags: ["Discord", "Machine Learning"],
@@ -153,7 +159,7 @@ export const PROJECTS = [
     award: "🏆 Best Hack at HyperHacks 2021.",
   },
   {
-    img: CognixionLogo,
+    img: FreeSpACE,
     name: "Free SpACE",
     favourite: true,
     tags: ["Full Stack", "E-Sports"],
@@ -183,12 +189,12 @@ export const PROJECTS = [
       },
     ],
     description:
-      "Analyzed current esports community and developed a web app to play in Bingo in real time with esports events. Developed back-end with Flask and Python to store login and data in MongoDB and update bingo boards across all users while processing HTTP requests to display appropriate information and quickly change displays.",
+      "We analyzed current esports community and developed a web app to play in Bingo in real time with esports events as a new way for online viewers to stay engaged. I developed the back-end with Flask and Python to store login and data in MongoDB and update bingo boards across all users while processing HTTP requests to display appropriate information and quickly change displays.",
     award: "🏆 Best Beginner Hack at Liquid Hacks 2.0 2021",
   },
   {
-    img: CognixionLogo,
-    name: "AAC AR Keyboard",
+    img: CXNone,
+    name: "Assistive AR Keyboard",
     favourite: true,
     tags: ["Design", "AR"],
     tools: [{ icon: <FaFigma />, name: "Figma" }],

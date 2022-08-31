@@ -10,12 +10,19 @@ const CardContainer = styled.div`
 
 const ProjectImageContainer = styled.div`
   background-image: url(${(props) => props.img});
-  height: 250px;
-  min-width: 250px;
+  // height: 250px;
+  // min-width: 250px;
 
-  background-size: cover;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  width: 100%;
+  height: 0;
+  padding-top: 60%;
+
   cursor: pointer;
 
   -webkit-transition: 0.3s;

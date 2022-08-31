@@ -6,13 +6,12 @@ import { FaWrench } from "react-icons/fa";
 
 const ImageContainer = styled.div`
   background-image: url(${(props) => props.img});
-  height: 50vh;
-  min-width: 250px;
-
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 30px;
+  width: 100%;
+  height: 0;
+  padding-top: 60%;
 `;
 
 const ToolsContainer = styled.div`
@@ -60,8 +59,8 @@ const Project = ({ project }) => {
           ) : (
             ""
           )}
-          <Heading3>{project.description}</Heading3>
-          <Heading3>{"award" in project ? project.award : ""}</Heading3>
+          {"description" in project ? <p>{project.description}</p> : ""}
+          <h4>{"award" in project ? project.award : ""}</h4>
           {"links" in project ? (
             <ToolsContainer>
               {project.links.map((link) => (

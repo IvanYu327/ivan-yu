@@ -13,6 +13,7 @@ const WorkContainer = styled.div`
   min-width: 250px;
   width: 450px;
   margin-right: 20px;
+  margin-bottom: 30px;
 `;
 
 const Experience = () => {

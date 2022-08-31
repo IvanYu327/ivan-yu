@@ -7,6 +7,7 @@ const NavbarContainer = styled.div`
   min-height: 70px;
   height: 10vw;
   padding-right: 10vw;
+  min-width: 300px;
 
   display: flex;
   justify-content: flex-end;

@@ -41,6 +41,7 @@ const ImageContainer = styled.div`
 const AboutContentContainer = styled.div`
   max-width: 550px;
   min-width: 250px;
+  min-height: 80vh;
   margin-top: 30px;
   margin-bottom: 30px;
 `;
@@ -62,7 +63,6 @@ const About = () => {
         <AboutContentContainer>
           <AboutHeadingContainer>
             <Aboutheading>Hello there!</Aboutheading>
-            {/* <MobileImageContainer /> */}
           </AboutHeadingContainer>
           <Heading2>
             I enjoy solving complex problems, and looking at how I can
@@ -82,7 +82,6 @@ const About = () => {
             fastest in Canada / 91rst globally).
           </Heading2>
         </AboutContentContainer>
-        {/* <ImageContainer /> */}
       </Container>
     </Section>
   );
