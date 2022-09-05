@@ -60,8 +60,7 @@ const Footer = () => {
           <span role="img" aria-label="heart">
             💙
           </span>
-          {" - "}
-          Ivan Yu © 2021
+          {" - "}© Ivan Yu 2021
         </FooterText>
       </Container>
     </Section>

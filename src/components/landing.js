@@ -20,16 +20,13 @@ const Landing = () => {
       <Container>
         <LandingContainer>
           <Heading1>
-            Hi!{" "}
+            Hi! I'm Ivan.{" "}
             <span role="img" aria-label="wave">
               👋
             </span>{" "}
-            I'm Ivan.
-            <br />
-            I'm an engineer.
           </Heading1>
           <Heading2>
-            Biomedical Engineering at the University of Waterloo.
+            I'm a Biomedical Engineering Student at the University of Waterloo.
             <br />
             Excited about software engineering, biotech, and UX.
           </Heading2>

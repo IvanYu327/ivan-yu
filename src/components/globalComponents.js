@@ -32,7 +32,7 @@ export const Container = styled.div`
 
 export const Line = styled.div`
   margin-top: ${(props) => props.marginTop};
-  border-bottom: 1px solid gray;
+  border-bottom: 2px solid gray;
 `;
 
 Line.defaultProps = {

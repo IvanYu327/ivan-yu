@@ -1,8 +1,16 @@
 import styled from "styled-components";
 import React from "react";
-import { Container, Heading1, Heading3, Section } from "../globalComponents";
+import {
+  Container,
+  Heading1,
+  Heading2,
+  Heading3,
+  Section,
+  Line,
+} from "../globalComponents";
 import Chip from "@material-ui/core/Chip";
 import { FaWrench } from "react-icons/fa";
+import { Stack } from "@mui/material";
 
 const ImageContainer = styled.div`
   background-image: url(${(props) => props.img});
@@ -15,9 +23,12 @@ const ImageContainer = styled.div`
 `;
 
 const ToolsContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
   max-width: 800px;
+`;
+
+const Block = styled.div`
+  padding: 10px 60px;
+  margin: 30px 20px;
 `;
 
 const Project = ({ project }) => {
@@ -28,63 +39,73 @@ const Project = ({ project }) => {
         <Container>
           <ImageContainer img={project.img} />
           <Heading1>{project.name}</Heading1>
+          <Heading2>{project.intro}</Heading2>
+          <Line marginTop={"30px"} />
+          <Block>
+            {"tools" in project ? (
+              <Stack
+                direction="row"
+                justifyContent="flex-start"
+                alignItems="center"
+                spacing={0}
+              >
+                <Chip
+                  style={{
+                    fontSize: "15px",
+                    border: "none",
+                    fontWeight: "bold",
+                    color: "gray",
+                  }}
+                  icon={<FaWrench />}
+                  label={"Tools:"}
+                  variant="outlined"
+                />
+                {project.tools.map((tool) => (
+                  <Chip
+                    key={project.tools.indexOf(tool)}
+                    style={{
+                      fontSize: "15px",
+                      border: "none",
+                      fontWeight: "bold",
+                    }}
+                    icon={tool.icon}
+                    label={tool.name}
+                    variant="outlined"
+                  />
+                ))}
+              </Stack>
+            ) : (
+              ""
+            )}
 
-          {"tools" in project ? (
-            <ToolsContainer>
-              <Chip
-                style={{
-                  fontSize: "15px",
-                  border: "none",
-                  fontWeight: "bold",
-                  color: "gray",
-                }}
-                icon={<FaWrench />}
-                label={"Built with:"}
-                variant="outlined"
-              />
-              {project.tools.map((tool) => (
-                <Chip
-                  key={project.tools.indexOf(tool)}
-                  style={{
-                    fontSize: "15px",
-                    border: "none",
-                    fontWeight: "bold",
-                  }}
-                  icon={tool.icon}
-                  label={tool.name}
-                  variant="outlined"
-                />
-              ))}
-            </ToolsContainer>
-          ) : (
-            ""
-          )}
-          {"description" in project ? <p>{project.description}</p> : ""}
-          <h4>{"award" in project ? project.award : ""}</h4>
-          {"links" in project ? (
-            <ToolsContainer>
-              {project.links.map((link) => (
-                <Chip
-                  key={project.links.indexOf(link)}
-                  style={{
-                    fontSize: "15px",
-                    border: "none",
-                    fontWeight: "bold",
-                    padding: "4px",
-                  }}
-                  icon={link.icon}
-                  label={"name" in link ? link.name : ""}
-                  variant="outlined"
-                  component="a"
-                  href={link.link}
-                  target="_blank"
-                  clickable
-                />
-              ))}
-            </ToolsContainer>
-          ) : (
-            ""
-          )}
+            {"description" in project ? <p>{project.description}</p> : ""}
+
+            <h4>{"award" in project ? project.award : ""}</h4>
+            {"links" in project ? (
+              <ToolsContainer>
+                {project.links.map((link) => (
+                  <Chip
+                    key={project.links.indexOf(link)}
+                    style={{
+                      fontSize: "15px",
+                      border: "none",
+                      fontWeight: "bold",
+                      padding: "4px",
+                    }}
+                    icon={link.icon}
+                    label={"name" in link ? link.name : ""}
+                    variant="outlined"
+                    component="a"
+                    href={link.link}
+                    target="_blank"
+                    clickable
+                  />
+                ))}
+              </ToolsContainer>
+            ) : (
+              ""
+            )}
+          </Block>
         </Container>
       </Section>
       {"more" in project ? project.more() : ""}

@@ -33,6 +33,7 @@ export const PROJECTS = [
     img: TimeLine,
     name: "TimeLine",
     favourite: true,
+    intro: "Web app to help users avoid crowds and long lines.",
     tags: ["Full Stack"],
     tools: [
       { icon: <DiHtml5 />, name: "HTML" },
@@ -68,6 +69,8 @@ export const PROJECTS = [
     img: Tabis,
     name: "Tabis",
     favourite: true,
+    intro:
+      "EEG brain wave analyzer to determine sleep cycles and optimize waking times.",
     tags: ["Full Stack", "Neurotech"],
     tools: [
       { icon: <FaReact />, name: "React" },
@@ -102,7 +105,8 @@ export const PROJECTS = [
   },
   {
     img: CognixionLogo,
-    name: "HTN Challenge",
+    name: "Events Page",
+    intro: "Search page for events at Hack the North.",
     favourite: false,
     tags: ["Front End"],
     tools: [
@@ -130,6 +134,7 @@ export const PROJECTS = [
     img: StudyGoose,
     name: "Study Goose",
     favourite: true,
+    intro: "Student helper Discord bot",
     tags: ["Discord", "Machine Learning"],
     tools: [
       { icon: <FaDiscord />, name: "Discord.py API" },
@@ -161,6 +166,7 @@ export const PROJECTS = [
   {
     img: FreeSpACE,
     name: "Free SpACE",
+    intro: "E-sports bingo game played along live events",
     favourite: true,
     tags: ["Full Stack", "E-Sports"],
     tools: [
@@ -195,6 +201,8 @@ export const PROJECTS = [
   {
     img: CXNone,
     name: "Assistive AR Keyboard",
+    intro:
+      "Keyboard interface design to assist disabled people in augmented reality.",
     favourite: true,
     tags: ["Design", "AR"],
     tools: [{ icon: <FaFigma />, name: "Figma" }],
@@ -205,6 +213,8 @@ export const PROJECTS = [
     img: CognixionLogo,
     name: "Build a Bot-y",
     favourite: false,
+    intro:
+      "Workout planner Discord bot to keep you and your friends accountable.",
     tags: ["Discord", "Python"],
     tools: [
       { icon: <FaDiscord />, name: "Discord.py API" },
@@ -224,28 +234,5 @@ export const PROJECTS = [
     ],
     description:
       "Build a Bot-y was my first hackthon project and is a workout planning Discord bot that tracks user profiles, personalized reminders, and comparisons to your friends to remind people to stay fit through a familiar social platform. I also developed a marketing website using HTML/CSS/JS for the bot as well. 🏆 First Place - EngHacks Quests 2021",
-  },
-  {
-    img: CognixionLogo,
-    name: "Personal Website",
-    favourite: false,
-    tags: ["Front End"],
-    tools: [
-      { icon: <FaReact />, name: "React" },
-      { icon: <DiCss3 />, name: "CSS" },
-      { icon: <SiMaterialui />, name: "Material UI" },
-    ],
-    links: [
-      {
-        icon: <FaGithub />,
-        name: "Github",
-        link: "https://github.com/IvanYu327/personal-website",
-      },
-      {
-        icon: <FiLink />,
-        name: "Demo (you're on it)",
-      },
-    ],
-    description: "It's my personal website.",
   },
 ];

@@ -31,10 +31,6 @@ const ProjectImageContainer = styled.div`
   }
 `;
 
-const CardContentContainer = styled.div`
-  max-width: 260px;
-`;
-
 const ProjectName = styled.h2`
   margin-top: 10px;
   margin-bottom: 0px;
@@ -93,12 +89,12 @@ const ProjectCard = ({ project }) => {
         img={project.img}
         onClick={() => handleClick(projectURL)}
       />
-      <CardContentContainer>
-        <ProjectName onClick={() => handleClick(projectURL)}>
-          <span>{project.name}</span>
-        </ProjectName>
-        <Tags>{tags}</Tags>
-      </CardContentContainer>
+
+      <ProjectName onClick={() => handleClick(projectURL)}>
+        <span>{project.name}</span>
+      </ProjectName>
+      {/* <Tags>{tags}</Tags> */}
+      <Tags>{project.intro}</Tags>
     </CardContainer>
   );
 };

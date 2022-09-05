@@ -31,21 +31,25 @@ const About = () => {
             <Aboutheading>Hello there!</Aboutheading>
           </AboutHeadingContainer>
           <Heading2>
-            I'm Ivan! I enjoy solving complex problems, and looking at how I can
+            I'm Ivan! I enjoy solving complex problems and looking at how I can
             meaningful contributions through tech.
             <br />
             <br />
-            Currently, I am studying Biomedical Engineering at uWaterloo while
-            working on neurotech software applications and full stack
-            engineering.
+            I am currently:
+            <br />
+            Studying: Biomedical Engineering @uWaterloo
             <br />
             <br />
-            I previously worked at Cognixion, designing and developing
-            interfaces to support communication for disabled peoples.
+            Learning: Back End Engineering
             <br />
             <br />
-            In my spare time, I enjoy rock climbing, LEGOs, and playing Tetris
-            (4th fastest in Canada / 91rst globally).
+            Reading: Deep Work
+            <br />
+            <br />
+            Enjoying: Rock Climbing, LEGOs
+            <br />
+            <br />
+            Playing: Valorant, Tetris
           </Heading2>
         </AboutContentContainer>
       </Container>

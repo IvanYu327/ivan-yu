@@ -61,9 +61,9 @@ function Navbar() {
   return (
     <>
       <NavbarContainer>
-        <NavbarItem onClick={() => handleClick("")}>ivan.</NavbarItem>
+        <NavbarItem onClick={() => handleClick("")}>ivan </NavbarItem>
         {/* <NavbarItem onClick={() => handleClick("work")}>work.</NavbarItem> */}
-        <NavbarItem onClick={() => handleClick("about")}>about.</NavbarItem>
+        <NavbarItem onClick={() => handleClick("about")}>about</NavbarItem>
       </NavbarContainer>
     </>
   );
