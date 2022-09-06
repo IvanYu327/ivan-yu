@@ -93,7 +93,6 @@ const ProjectCard = ({ project }) => {
       <ProjectName onClick={() => handleClick(projectURL)}>
         <span>{project.name}</span>
       </ProjectName>
-      {/* <Tags>{tags}</Tags> */}
       <Tags>{project.intro}</Tags>
     </CardContainer>
   );
