@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Section, Line } from "../globalComponents";
+import { Container, Section } from "../globalComponents";
 import { PROJECTS } from "../../content/projectData";
 import ProjectCard from "./projectCard";
 import { Grid } from "@mui/material";

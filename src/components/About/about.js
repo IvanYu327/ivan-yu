@@ -44,9 +44,6 @@ const About = () => {
           <Heading2>
             My pursuit of knowledge and skill does not end at engineering and
             design.
-            <br />
-            <br />
-            I'm always curious and looking to explore new topics.
           </Heading2>
           <Grid
             container

@@ -4,7 +4,6 @@ import {
   Container,
   Heading1,
   Heading2,
-  Heading3,
   Section,
   Line,
 } from "../globalComponents";
