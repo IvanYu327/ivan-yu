@@ -23,19 +23,6 @@ const AboutHeadingContainer = styled.div`
   align-items: center;
 `;
 
-const Category = styled.div`
-  width: 150px;
-`;
-
-const Item = styled.div`
-  min-width: 500px;
-  text-align: right;
-`;
-
-const Itemm = styled.h3`
-  text-align: left;
-`;
-
 const SIDE_THINGS_DATA = [
   { category: "learning", items: "Calisthenics, Back End Engineering" },
   { category: "reading", items: "Deep Work by Cal Newport" },

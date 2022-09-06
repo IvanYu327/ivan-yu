@@ -235,4 +235,28 @@ export const PROJECTS = [
     description:
       "Build a Bot-y was my first hackthon project and is a workout planning Discord bot that tracks user profiles, personalized reminders, and comparisons to your friends to remind people to stay fit through a familiar social platform. I also developed a marketing website using HTML/CSS/JS for the bot as well. 🏆 First Place - EngHacks Quests 2021",
   },
+  {
+    img: CognixionLogo,
+    name: "Personal Website",
+    intro: "^ read that again ",
+    favourite: false,
+    tags: ["Front End"],
+    tools: [
+      { icon: <FaReact />, name: "React" },
+      { icon: <DiCss3 />, name: "CSS" },
+      { icon: <SiMaterialui />, name: "Material UI" },
+    ],
+    links: [
+      {
+        icon: <FaGithub />,
+        name: "Github",
+        link: "https://github.com/IvanYu327/personal-website",
+      },
+      {
+        icon: <FiLink />,
+        name: "Demo (you're on it)",
+      },
+    ],
+    description: "It's my personal website.",
+  },
 ];
