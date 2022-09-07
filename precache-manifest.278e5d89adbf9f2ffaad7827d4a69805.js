@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/Proxima-Nova-Regular.920c71d3.woff2"
   },
   {
-    "revision": "0a41d2fbc061e9f49feb1089f5a82557",
+    "revision": "e1c3631ec286260761d5e61c81be0ed5",
     "url": "/index.html"
   }
 ];
