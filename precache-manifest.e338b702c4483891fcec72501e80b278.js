@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/personal-website/static/media/CXNone.bd4402d7.png"
   },
   {
-    "revision": "1d7f11289378359bbc815500a5f9f2b5",
-    "url": "/personal-website/static/media/BespokeSerif-Bold.1d7f1128.otf"
-  },
-  {
     "revision": "920c71d3c24d47cfa9a0de6eb034024a",
     "url": "/personal-website/static/media/Proxima-Nova-Regular.920c71d3.woff2"
+  },
+  {
+    "revision": "1d7f11289378359bbc815500a5f9f2b5",
+    "url": "/personal-website/static/media/BespokeSerif-Bold.1d7f1128.otf"
   },
   {
     "revision": "8cd5216f447a383a823fee30fb15c749",
