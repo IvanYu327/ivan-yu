@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8a3db1c77e6449db7b05",
+    "revision": "c38155c3e60591965ea4",
     "url": "/static/css/main.cbb4a458.chunk.css"
   },
   {
-    "revision": "8a3db1c77e6449db7b05",
-    "url": "/static/js/main.a75e4b76.chunk.js"
+    "revision": "c38155c3e60591965ea4",
+    "url": "/static/js/main.5f34a786.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -40,15 +40,15 @@ self.__precacheManifest = [
     "url": "/static/media/CXNone.bd4402d7.png"
   },
   {
-    "revision": "920c71d3c24d47cfa9a0de6eb034024a",
-    "url": "/static/media/Proxima-Nova-Regular.920c71d3.woff2"
-  },
-  {
     "revision": "1d7f11289378359bbc815500a5f9f2b5",
     "url": "/static/media/BespokeSerif-Bold.1d7f1128.otf"
   },
   {
-    "revision": "e67ef33eab6fa30c645c904a9618398e",
+    "revision": "920c71d3c24d47cfa9a0de6eb034024a",
+    "url": "/static/media/Proxima-Nova-Regular.920c71d3.woff2"
+  },
+  {
+    "revision": "cd1e159155f315257b656423d0d452e6",
     "url": "/index.html"
   }
 ];
