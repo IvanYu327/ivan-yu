@@ -160,7 +160,7 @@ export const PROJECTS = [
       },
     ],
     description:
-      "Study Goose is a student helper Discord bot. I developed an AI chatbot using Python and trained a ML model using TensorFlow to respond to common Discord inquiries addressed to the bot, reducing the learning curve for new users to use Discord. I also developed features to convert images to text, play music, answer educational questions, and implemented MongoDB to store to-do lists and user preferences, servicing 400+ users.",
+      "Study Goose is a student-helper Discord bot. I developed an AI chatbot using Python and trained a ML model using TensorFlow to respond to common Discord inquiries addressed to the bot, reducing the learning curve for new users to use Discord. I also developed features which convert images to text, play music, answer educational questions, and implemented MongoDB to store to-do lists and user preferences to service 1000+ users.",
     award: "🏆 Best Hack at HyperHacks 2021.",
   },
   {
