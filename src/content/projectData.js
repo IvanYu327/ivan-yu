@@ -27,6 +27,7 @@ import Tabis from "../images/projects/Tabis.png";
 import StudyGoose from "../images/projects/StudyGoose.png";
 import FreeSpACE from "../images/projects/FreeSpACE.png";
 import CXNone from "../images/projects/CXNone.png";
+import PersonalSite from "../images/projects/PersonalSite.png";
 
 export const PROJECTS = [
   {
@@ -236,10 +237,10 @@ export const PROJECTS = [
       "Build a Bot-y was my first hackthon project and is a workout planning Discord bot that tracks user profiles, personalized reminders, and comparisons to your friends to remind people to stay fit through a familiar social platform. I also developed a marketing website using HTML/CSS/JS for the bot as well. 🏆 First Place - EngHacks Quests 2021",
   },
   {
-    img: CognixionLogo,
+    img: PersonalSite,
     name: "Personal Website",
-    intro: "^ read that again ",
-    favourite: false,
+    intro: "^ Read that again ",
+    favourite: true,
     tags: ["Front End"],
     tools: [
       { icon: <FaReact />, name: "React" },
