@@ -239,7 +239,7 @@ export const PROJECTS = [
   {
     img: PersonalSite,
     name: "Personal Website",
-    intro: "^ Read that again ",
+    intro: "My personal website for my projects and cool work!",
     favourite: true,
     tags: ["Front End"],
     tools: [
