@@ -26,9 +26,9 @@ const Landing = () => {
             </span>{" "}
           </Heading1>
           <Heading2>
-            I'm a Biomedical Engineering Student at the University of Waterloo.
+            I'm a Computer Science Student at the University of Waterloo.
             <br />
-            <br />I enjoy solving complex problems and looking at how I can
+            <br />I love solving complex problems and looking at how I can
             meaningful contributions through software engineering, biotech, and
             UX.
           </Heading2>
