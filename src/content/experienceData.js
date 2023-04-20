@@ -1,22 +1,15 @@
 export const CURRENT_EXPERIENCE = [
   {
+    position: "Front End Developer",
+    company: "Hack the North",
+    link: "https://hackthenorth.com/",
+    description: "Organizing Canada's largest hackathon",
+  },
+  {
     position: "Software Team Lead",
     company: "Watolink",
     link: "https://www.watolink.com/",
     description: "Developing neurotech (SSVEP) applications with Python and AI",
-  },
-  {
-    position: "Full Stack and Firmware Developer",
-    company: "Waterloop",
-    link: "https://teamwaterloop.ca/",
-    description:
-      "Developing recruitment system (PERN) and hyperloop interface (web and firmware)",
-  },
-  {
-    position: "Full Stack Developer",
-    company: "Watonomous",
-    link: "https://www.watonomous.ca/",
-    description: "Developing finance management system (MERN)",
   },
 ];
 
@@ -27,5 +20,30 @@ export const PAST_EXPERIENCE = [
     link: "https://www.cognixion.com/",
     description:
       "Designed and developed neurotech applications to unlock speech for disabled peoples",
+  },
+  {
+    position: "Software Engineering Intern",
+    company: "ZAP IN",
+    link: "https://www.zapinapp.com/",
+    description: "Built feature-rich visitor management software",
+  },
+  {
+    position: "Software Developer",
+    company: "UW Blueprint",
+    link: "https://uwblueprint.org/",
+    description: "Built software solutions for non-profits",
+  },
+  {
+    position: "Full Stack Developer",
+    company: "Waterloop",
+    link: "https://teamwaterloop.ca/",
+    description:
+      "Developed recruitment system (PERN) and hyperloop interface (web and firmware)",
+  },
+  {
+    position: "Full Stack Developer",
+    company: "Watonomous",
+    link: "https://www.watonomous.ca/",
+    description: "Developed finance management system (MERN)",
   },
 ];
