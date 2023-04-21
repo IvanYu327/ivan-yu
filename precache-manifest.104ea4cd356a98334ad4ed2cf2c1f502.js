@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7f5254805c4690254851",
+    "revision": "e987eb2ceca99b79888a",
     "url": "/static/css/main.cbb4a458.chunk.css"
   },
   {
-    "revision": "7f5254805c4690254851",
-    "url": "/static/js/main.1912b09c.chunk.js"
+    "revision": "e987eb2ceca99b79888a",
+    "url": "/static/js/main.50ee2a26.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/Proxima-Nova-Regular.920c71d3.woff2"
   },
   {
-    "revision": "5ab6996b93e87b1b6eebe70c9fd93bfd",
+    "revision": "41f6ae8b1f2d0533e86ad50381ef03a4",
     "url": "/index.html"
   }
 ];
