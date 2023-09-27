@@ -1,6 +1,12 @@
 export const CURRENT_EXPERIENCE = [
   {
-    position: "Front End Developer",
+    position: "Software Engineering Intern",
+    company: "Deep Breathe",
+    link: "https://www.deepbreathe.ai/",
+    description: "Building tools to help clincians diagnose lung ultrasounds",
+  },
+  {
+    position: "Back End Developer",
     company: "Hack the North",
     link: "https://hackthenorth.com/",
     description: "Organizing Canada's largest hackathon",
@@ -26,6 +32,12 @@ export const PAST_EXPERIENCE = [
     company: "ZAP IN",
     link: "https://www.zapinapp.com/",
     description: "Built feature-rich visitor management software",
+  },
+  {
+    position: "Front End Developer",
+    company: "Hack the North",
+    link: "https://hackthenorth.com/",
+    description: "Organizing Canada's largest hackathon",
   },
   {
     position: "Software Developer",
